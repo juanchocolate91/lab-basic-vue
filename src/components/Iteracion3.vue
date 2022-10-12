@@ -5,8 +5,9 @@
     <button @click="cuadroAzul">click me</button>
   </div>
   <h2>Ejercicio-v-show</h2>
+  
 
-  <div :class="aparecer">
+  <div v-if="vShow" class="cuadro-pur">
   </div>
   <button @click="aparecer">Show purple box</button>
 </template>
