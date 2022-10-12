@@ -18,6 +18,7 @@ const hola = ref(true);
 const cuadroAzul = () => (hola.value = !hola.value);
 
 const vShow = ref(true);
+
 const aparecer = () => (vShow.value = !vShow.value);
 </script>
 
